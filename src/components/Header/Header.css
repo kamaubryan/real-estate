@@ -1,17 +1,42 @@
 .h-wrapper{
+    /* background: var(--black);
+    color: white; */
+    position: fixed; /* Sticks to the top of the screen */
+    top: 0;
+    left: 0;
+    width: 100%;
     background: var(--black);
     color: white;
+    z-index: 1000; /* Ensure it is above other content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a slight shadow for better visibility */
+
 }
 .h-container{
+    display: flex;
     justify-content: space-between;
     padding-top: 1rem;
     padding-bottom: 1rem;
     color: var(--secondary);
+    max-width: 100%;
 }
 
 .h-menu{
+    display: flex;
     gap: 3rem;
 }
 .h-menu>*:hover{
-    cursor: pointer;                
+    cursor: pointer;  
+    color: var(--secondary);              
+}
+.button {
+    padding: 0.5rem 1rem;
+    background-color: var(--secondary);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.button:hover {
+    background-color: var(--primary);
 }
