@@ -29,15 +29,3 @@
     cursor: pointer;  
     color: var(--secondary);              
 }
-.button {
-    padding: 0.5rem 1rem;
-    background-color: var(--secondary);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-.button:hover {
-    background-color: var(--primary);
-}
