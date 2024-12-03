@@ -1,15 +1,15 @@
 import Header from './components/Header/Header';
-// import './App.css'
+import './App.css'
+import Hero from './components/Hero/Hero';
 
 function App() {
 
   return (
-    <div className="App">
-
-<Header/>
-
-    </div>
-  );
+    <>
+  <Header/>
+  <Hero/>
+    </>
+  )
 }
 
 export default App

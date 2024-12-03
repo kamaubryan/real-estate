@@ -1,20 +1,21 @@
-import React from 'react'
+import React from "react";
+
 
 const Header = () => {
     return (
-        <section className="h-wrapper">
-            <div className="h-container">
+        <section className="h-wrapper bg-black text-white">
+            <div className="flex paddings innerWidth h-container justify-between py-4  text-secondary">
 
-                <img src="./school.png" alt="logo" width={100} />
+                <img src="/homyz.png" alt="logo" width={100} />
 
 
-                <div className="h-menu">
-                    <a href="">Residencies</a>
-                    <a href="">Our Value</a>
-                    <a href="">Contact Us</a>
-                    <a href="">Get Started</a>
+                <div className="h-menu flex items-center gap-8">
+                    <a href="" className="hover:cursor-pointer">Residencies</a>
+                    <a href="" className="hover:cursor-pointer">Our Value</a>
+                    <a href="" className="hover:cursor-pointer">Contact Us</a>
+                    <a href="" className="hover:cursor-pointer">Get Started</a>
 
-                    <button>
+                    <button className="button font-[500] px-2 py-3 text-white bg-blue rounded-[6px] border-none hover:cursor-pointer hover:transform-scale(1.1) transition-all-300ms ease-in-out"> 
                     <a href="">Contact</a>
 
                     </button>
